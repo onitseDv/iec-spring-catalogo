@@ -76,7 +76,6 @@ public class PopulaDados {
         for (Categoria c : categorias) {
             Categoria categoriaSalva = categoriaRepository.save(c);
             log.info("Categoria de id " + categoriaSalva.getId() + " criada");
-
         }
 
     }

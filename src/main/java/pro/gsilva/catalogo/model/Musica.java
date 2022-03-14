@@ -37,5 +37,9 @@ public class Musica {
     @Lob
     private String letra;
 
+    public String getId() {
+        return null;
+    }
+
     
 }

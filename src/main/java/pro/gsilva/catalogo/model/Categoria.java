@@ -14,4 +14,9 @@ public class Categoria {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
+    public void setNome(String string) {
+    }
+    public String getId() {
+        return null;
+    }
 }
