@@ -15,5 +15,5 @@ public interface CatalogoRepository extends JpaRepository<Musica, Long>, CustomC
     List<Musica> findAllWithTituloLike(String titulo);
 
     @Query("select m from Musica m join m.categoria c where c.id = :categoriaId")
-    List<Musica> findAllByCategoriaId(Long categoriaId);
+    List<Musica> findAllByCategoria(Long categoriaId);
 }
