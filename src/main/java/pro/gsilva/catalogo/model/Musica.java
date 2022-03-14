@@ -37,9 +37,35 @@ public class Musica {
     @Lob
     private String letra;
 
-    public String getId() {
-        return null;
+    public Long getId() {
+        return id;
     }
-
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public String getAutor() {
+        return autor;
+    }
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+    public String getTitulo() {
+        return titulo;
+    }
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public LocalDate getData() {
+        return data;
+    }
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
+    public String getLetra() {
+        return letra;
+    }
+    public void setLetra(String letra) {
+        this.letra = letra;
+    }
     
 }
